@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: red;
+}
+
+#nav {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    background-color: blueviolet;
+    display: block;
+    padding: 10px;
+    text-decoration: aliceblue;
+}
+
+.nav-item:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+
+}
+
+.title {
+    text-align: center;
+}
